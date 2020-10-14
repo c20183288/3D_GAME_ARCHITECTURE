@@ -1,0 +1,8 @@
+﻿  20183288_허융차오_main_5.cpp
+  FileManager_5.cpp
+  Object_5.cpp
+  Renderer_5.cpp
+C:\Users\何哈哈丶\source\repos\20183288_허융치오\Renderer_5.cpp(118,56): warning C4267: “参数”: 从“size_t”转换到“GLsizei”，可能丢失数据
+  正在生成代码...
+LINK : warning LNK4098: 默认库“MSVCRT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+  20183288_허융치오.vcxproj -> C:\Users\何哈哈丶\source\repos\20183288_허융치오\x64\Debug\20183288_허융치오.exe
