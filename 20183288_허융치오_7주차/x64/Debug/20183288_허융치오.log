@@ -1,0 +1,65 @@
+﻿  20183288_허융차오_main_6.cpp
+C:\Users\何哈哈丶\source\repos\20183288_허융치오\Object_6.h(52,33): warning C4584: “RenderableObject”: 基类“Object”已是“IRenderer”的基类
+C:\Users\何哈哈丶\source\repos\20183288_허융치오\Object_6.h(13): message : 参见“Object”的声明
+C:\Users\何哈哈丶\source\repos\20183288_허융치오\Object_6.h(28): message : 参见“IRenderer”的声明
+C:\Users\何哈哈丶\source\repos\20183288_허융치오\20183288_허융차오_main_6.cpp(32): error C2259: “Sphere”: 无法实例化抽象类
+C:\Users\何哈哈丶\source\repos\20183288_허융치오\Sphere.h(5): message : 参见“Sphere”的声明
+C:\Users\何哈哈丶\source\repos\20183288_허융치오\20183288_허융차오_main_6.cpp(32): message : 由于下列成员:
+C:\Users\何哈哈丶\source\repos\20183288_허융치오\20183288_허융차오_main_6.cpp(32): message : “void IUpdater::update(void)”: 是抽象的
+C:\Users\何哈哈丶\source\repos\20183288_허융치오\IUpdater.h(7): message : 参见“IUpdater::update”的声明
+C:\Users\何哈哈丶\source\repos\20183288_허융치오\20183288_허융차오_main_6.cpp(32,29): error C2259: “Sphere”: 无法实例化抽象类
+C:\Users\何哈哈丶\source\repos\20183288_허융치오\Sphere.h(5): message : 参见“Sphere”的声明
+C:\Users\何哈哈丶\source\repos\20183288_허융치오\20183288_허융차오_main_6.cpp(32,29): message : 由于下列成员:
+C:\Users\何哈哈丶\source\repos\20183288_허융치오\20183288_허융차오_main_6.cpp(32,29): message : “void IUpdater::update(void)”: 是抽象的
+C:\Users\何哈哈丶\source\repos\20183288_허융치오\IUpdater.h(7): message : 参见“IUpdater::update”的声明
+C:\Users\何哈哈丶\source\repos\20183288_허융치오\20183288_허융차오_main_6.cpp(42,20): error C2660: “Renderer::render”: 函数不接受 0 个参数
+C:\Users\何哈哈丶\source\repos\20183288_허융치오\Renderer_6.h(22,7): message : 参见“Renderer::render”的声明
+  FileManager_6.cpp
+C:\Users\何哈哈丶\source\repos\20183288_허융치오\Object_6.h(52,33): warning C4584: “RenderableObject”: 基类“Object”已是“IRenderer”的基类
+C:\Users\何哈哈丶\source\repos\20183288_허융치오\Object_6.h(13): message : 参见“Object”的声明
+C:\Users\何哈哈丶\source\repos\20183288_허융치오\Object_6.h(28): message : 参见“IRenderer”的声明
+  Object_6.cpp
+C:\Users\何哈哈丶\source\repos\20183288_허융치오\Object_6.h(52,33): warning C4584: “RenderableObject”: 基类“Object”已是“IRenderer”的基类
+C:\Users\何哈哈丶\source\repos\20183288_허융치오\Object_6.h(13): message : 参见“Object”的声明
+C:\Users\何哈哈丶\source\repos\20183288_허융치오\Object_6.h(28): message : 参见“IRenderer”的声明
+C:\Users\何哈哈丶\source\repos\20183288_허융치오\Object_6.cpp(33,1): error C2084: 函数“void NonRenderableObject::shutDown(void)”已有主体
+C:\Users\何哈哈丶\source\repos\20183288_허융치오\Object_6.h(66): message : 参见“shutDown”的前一个定义
+C:\Users\何哈哈丶\source\repos\20183288_허융치오\Object_6.cpp(38,1): error C2084: 函数“void NonRenderableObject::update(void)”已有主体
+C:\Users\何哈哈丶\source\repos\20183288_허융치오\Object_6.h(68): message : 参见“update”的前一个定义
+  Renderer_6.cpp
+C:\Users\何哈哈丶\source\repos\20183288_허융치오\Object_6.h(52,33): warning C4584: “RenderableObject”: 基类“Object”已是“IRenderer”的基类
+C:\Users\何哈哈丶\source\repos\20183288_허융치오\Object_6.h(13): message : 参见“Object”的声明
+C:\Users\何哈哈丶\source\repos\20183288_허융치오\Object_6.h(28): message : 参见“IRenderer”的声明
+C:\Users\何哈哈丶\source\repos\20183288_허융치오\IUpdater.h(5,1): error C2011: “IUpdater”:“class”类型重定义
+C:\Users\何哈哈丶\source\repos\20183288_허융치오\Renderer_6.h(5): message : 参见“IUpdater”的声明
+C:\Users\何哈哈丶\source\repos\20183288_허융치오\Renderer_6.cpp(17,52): error C2679: 二进制“=”: 没有找到接受“std::vector<IRenderer *,std::allocator<IRenderer *>> *”类型的右操作数的运算符(或没有可接受的转换)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\vector(1175,13): message : 可能是“std::vector<IRenderer *,std::allocator<IRenderer *>> &std::vector<IRenderer *,std::allocator<IRenderer *>>::operator =(std::initializer_list<_Ty>)”
+          with
+          [
+              _Ty=IRenderer *
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\vector(1167,13): message : 或    “std::vector<IRenderer *,std::allocator<IRenderer *>> &std::vector<IRenderer *,std::allocator<IRenderer *>>::operator =(const std::vector<IRenderer *,std::allocator<IRenderer *>> &)”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\vector(664,13): message : 或    “std::vector<IRenderer *,std::allocator<IRenderer *>> &std::vector<IRenderer *,std::allocator<IRenderer *>>::operator =(std::vector<IRenderer *,std::allocator<IRenderer *>> &&) noexcept(<expr>)”
+C:\Users\何哈哈丶\source\repos\20183288_허융치오\Renderer_6.cpp(17,52): message : 尝试匹配参数列表“(std::vector<IRenderer *,std::allocator<IRenderer *>>, std::vector<IRenderer *,std::allocator<IRenderer *>> *)”时
+C:\Users\何哈哈丶\source\repos\20183288_허융치오\Renderer_6.cpp(124,56): warning C4267: “参数”: 从“size_t”转换到“GLsizei”，可能丢失数据
+C:\Users\何哈哈丶\source\repos\20183288_허융치오\Renderer_6.cpp(136,9): error C2027: 使用了未定义类型“IUpdater”
+C:\Users\何哈哈丶\source\repos\20183288_허융치오\Renderer_6.h(5): message : 参见“IUpdater”的声明
+C:\Users\何哈哈丶\source\repos\20183288_허융치오\Renderer_6.cpp(141,18): error C2819: “std::vector<IRenderer *,std::allocator<IRenderer *>>”类型没有重载成员“operator ->”
+C:\Users\何哈哈丶\source\repos\20183288_허융치오\Renderer_6.h(12): message : 参见“std::vector<IRenderer *,std::allocator<IRenderer *>>”的声明
+C:\Users\何哈哈丶\source\repos\20183288_허융치오\Renderer_6.cpp(141,18): message : 是否改用“.”?
+C:\Users\何哈哈丶\source\repos\20183288_허융치오\Renderer_6.cpp(141,29): error C2232: “->std::vector<IRenderer *,std::allocator<IRenderer *>>::push_back”: 左操作数有“class”类型，使用“.”
+C:\Users\何哈哈丶\source\repos\20183288_허융치오\Renderer_6.cpp(146,25): error C2440: “delete”: 无法从“std::vector<IRenderer *,std::allocator<IRenderer *>>”转换为“void*”
+C:\Users\何哈哈丶\source\repos\20183288_허융치오\Renderer_6.cpp(146,9): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+  SampleNonRenderObj.cpp
+C:\Users\何哈哈丶\source\repos\20183288_허융치오\Object_6.h(52,33): warning C4584: “RenderableObject”: 基类“Object”已是“IRenderer”的基类
+C:\Users\何哈哈丶\source\repos\20183288_허융치오\Object_6.h(13): message : 参见“Object”的声明
+C:\Users\何哈哈丶\source\repos\20183288_허융치오\Object_6.h(28): message : 参见“IRenderer”的声明
+C:\Users\何哈哈丶\source\repos\20183288_허융치오\SampleNonRenderObj.cpp(4,1): error C2084: 函数“void SampleNonRenderObj::shutDown(void)”已有主体
+C:\Users\何哈哈丶\source\repos\20183288_허융치오\SampleNonRenderObj.h(8): message : 参见“shutDown”的前一个定义
+C:\Users\何哈哈丶\source\repos\20183288_허융치오\SampleNonRenderObj.cpp(9,1): error C2084: 函数“void SampleNonRenderObj::update(void)”已有主体
+C:\Users\何哈哈丶\source\repos\20183288_허융치오\SampleNonRenderObj.h(10): message : 参见“update”的前一个定义
+  Sphere.cpp
+C:\Users\何哈哈丶\source\repos\20183288_허융치오\Object_6.h(52,33): warning C4584: “RenderableObject”: 基类“Object”已是“IRenderer”的基类
+C:\Users\何哈哈丶\source\repos\20183288_허융치오\Object_6.h(13): message : 参见“Object”的声明
+C:\Users\何哈哈丶\source\repos\20183288_허융치오\Object_6.h(28): message : 参见“IRenderer”的声明
+  正在生成代码...
